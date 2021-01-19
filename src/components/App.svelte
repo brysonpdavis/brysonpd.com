@@ -11,8 +11,11 @@
 </script>
 
 <style>
+
+
+
 	.hero-text-container {
-		height: 100vh;
+		height: calc(100vh - 3em);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -21,7 +24,7 @@
 	.hero-text {
 		margin: 0;
 		background-color: #000000aa;
-		padding: 24px;
+		padding: 2em;
 	}
 
 	.hero-subtext {
@@ -33,6 +36,7 @@
 		position: sticky;
 		top: 0px;
 		bottom: 0px;
+		z-index: 2;
 	}
 
 	h1 {
@@ -57,23 +61,26 @@
 	<div class="hero-text-container">
 		<span class = "hero-text">
 			<h1>Bryson Davis</h1>
-			<h2 class = "hero-subtext">developer for interactive media</h2>
+			<h2 class = "hero-subtext">
+				developer for interactive media
+				<!-- interactive media + web developer -->	
+			</h2>
 		</span>
 	</div>
-	<div class="tab-bar-background">
-		<TabBar tabs={['Introduction', 'Resume', 'Projects', 'Contact']} let:tab bind:active > 
-			<Tab {tab}>
-				<Label> {tab} </Label>
+	<div id="tab-bar" class="tab-bar-background">
+		<TabBar tabs={['Introduction', 'Projects', 'Resume', 'Contact']} let:tab bind:active > 
+			<Tab on:click={() => document.getElementById('tab-bar').scrollIntoView(true)} {tab}>
+				<Label>{tab}</Label>
 			</Tab>
 		</TabBar>
 	</div>
 	<Content>
 		{#if active === 'Introduction'}
 			<Introduction />
-		{:else if active === 'Resume'}
-			<Resume />
 		{:else if active === 'Projects'}
 			<Projects />
+		{:else if active === 'Resume'}
+			<Resume />
 		{:else}
 			<Contact />
 		{/if}

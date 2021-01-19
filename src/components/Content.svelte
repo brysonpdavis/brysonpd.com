@@ -1,7 +1,7 @@
 <style>
     .content {
         background-color: #000000aa;
-        padding: 2rem;
+        padding: 3em;
     }
 
     .container {
