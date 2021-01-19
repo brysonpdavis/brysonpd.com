@@ -1,5 +1,4 @@
 <script>
-    import BlurhashImage from 'svelte-blurhash'
 </script>
 
 <style>

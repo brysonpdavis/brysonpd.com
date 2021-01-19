@@ -19,17 +19,21 @@ body {
 }
 
 a {
-	color: rgb(0,100,200);
-	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 4px 0px #6300ee;
+
 }
 
 a:hover {
-	text-decoration: underline;
+	color: #6300ee;
+	text-shadow: 4px 4px white;
+
 }
 
-a:visited {
+/* a:visited {
 	color: rgb(0,80,160);
-}
+} */
 
 label {
 	display: block;
@@ -92,4 +96,8 @@ button:focus {
     background: #6300ee75;
     color: #fefefe;
     text-shadow: none;
+}
+
+h3 {
+	text-shadow: 3px 3px #6300ee;
 }

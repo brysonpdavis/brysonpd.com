@@ -25,6 +25,7 @@
 		margin: 0;
 		background-color: #000000aa;
 		padding: 2em;
+		text-shadow: 3px 3px #6300ee;
 	}
 
 	.hero-subtext {

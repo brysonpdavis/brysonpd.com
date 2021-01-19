@@ -5,8 +5,6 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
 import postcss from 'rollup-plugin-postcss';
-import copy from 'rollup-plugin-copy';
-import image from 'svelte-image';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -47,16 +45,8 @@ export default {
 				hydratable: true,
 				css: true
 			},
-			emitCss: false,
-			preprocess: {
-				...image({
-					placeholder: "trace"
-				})
-			}
+			emitCss: false
 		}),
-		copy({
-			targets: [{ src: 'static/g', dest: 'public' }],
-		  }),	  
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: 'bundle.css' }),
