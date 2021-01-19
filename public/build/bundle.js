@@ -6614,8 +6614,8 @@ var app = (function () {
 
     function add_css$1() {
     	var style = element("style");
-    	style.id = "svelte-mhgif0-style";
-    	style.textContent = "h3.svelte-mhgif0{font-size:3rem;font-weight:400;text-align:right;margin:0;margin-bottom:1em}p.svelte-mhgif0{font-size:2em}.resume-container.svelte-mhgif0{width:100%;text-align:center}.resume-img.svelte-mhgif0{max-width:100%;min-width:400px;margin-left:auto;margin-right:auto}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUmVzdW1lLnN2ZWx0ZSIsInNvdXJjZXMiOlsiUmVzdW1lLnN2ZWx0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8c2NyaXB0PlxuICAgIGltcG9ydCB7Ymx1cn0gZnJvbSAnc3ZlbHRlL3RyYW5zaXRpb24nXG4gICAgZXhwb3J0IGxldCBzZXRBY3RpdmU7XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICAgIGgzIHtcbiAgICAgICAgZm9udC1zaXplOiAzcmVtO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxZW07XG4gICAgfVxuICAgIHAge1xuICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG4gICAgLnJlc3VtZS1jb250YWluZXIge1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIH1cbiAgICAucmVzdW1lLWltZyB7XG4gICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgICAgbWluLXdpZHRoOiA0MDBweDtcbiAgICAgICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICB9XG48L3N0eWxlPlxuXG48ZGl2IHRyYW5zaXRpb246Ymx1ciBvbjpvdXRyb2VuZD17c2V0QWN0aXZlfT5cbiAgICA8aDM+XG4gICAgICAgIGhhdmUgYSBsb29rIGF0IG15IHJlc3VtZVxuICAgIDwvaDM+XG5cbiAgICA8ZGl2IGNsYXNzPXtcInJlc3VtZS1jb250YWluZXJcIn0+XG4gICAgICAgIDxpbWcgY2xhc3M9e1wicmVzdW1lLWltZ1wifSBzcmM9e1wiaW1hZ2VzL3Jlc3VtZS5wbmdcIn0gYWx0PXtcIm15IHJlc3VtZVwifT5cbiAgICAgICAgPHA+XG4gICAgICAgICAgICA8YSBkb3dubG9hZD1cImJyeXNvbi1kYXZpcy1yZXN1bWUucG5nXCIgaHJlZj1cImltYWdlcy9yZXN1bWUucG5nXCI+XG4gICAgICAgICAgICAgICAgZG93bmxvYWRcbiAgICAgICAgICAgIDwvYT5cbiAgICAgICAgPC9wPiAgICBcbiAgICA8L2Rpdj5cblxuPC9kaXY+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1JLEVBQUUsY0FBQyxDQUFDLEFBQ0EsU0FBUyxDQUFFLElBQUksQ0FDZixXQUFXLENBQUUsR0FBRyxDQUNoQixVQUFVLENBQUUsS0FBSyxDQUNqQixNQUFNLENBQUUsQ0FBQyxDQUNULGFBQWEsQ0FBRSxHQUFHLEFBQ3RCLENBQUMsQUFDRCxDQUFDLGNBQUMsQ0FBQyxBQUNDLFNBQVMsQ0FBRSxHQUFHLEFBQ2xCLENBQUMsQUFDRCxpQkFBaUIsY0FBQyxDQUFDLEFBQ2YsS0FBSyxDQUFFLElBQUksQ0FDWCxVQUFVLENBQUUsTUFBTSxBQUN0QixDQUFDLEFBQ0QsV0FBVyxjQUFDLENBQUMsQUFDVCxTQUFTLENBQUUsSUFBSSxDQUNmLFNBQVMsQ0FBRSxLQUFLLENBQ2hCLFdBQVcsQ0FBRSxJQUFJLENBQ2pCLFlBQVksQ0FBRSxJQUFJLEFBQ3RCLENBQUMifQ== */";
+    	style.id = "svelte-1yhuau0-style";
+    	style.textContent = "h3.svelte-1yhuau0{font-size:3rem;font-weight:400;text-align:right;margin:0;margin-bottom:1em}p.svelte-1yhuau0{font-size:2em}.resume-container.svelte-1yhuau0{width:100%;text-align:center}.resume-img.svelte-1yhuau0{max-width:100%;margin-left:auto;margin-right:auto}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUmVzdW1lLnN2ZWx0ZSIsInNvdXJjZXMiOlsiUmVzdW1lLnN2ZWx0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8c2NyaXB0PlxuICAgIGltcG9ydCB7Ymx1cn0gZnJvbSAnc3ZlbHRlL3RyYW5zaXRpb24nXG4gICAgZXhwb3J0IGxldCBzZXRBY3RpdmU7XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICAgIGgzIHtcbiAgICAgICAgZm9udC1zaXplOiAzcmVtO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxZW07XG4gICAgfVxuICAgIHAge1xuICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG4gICAgLnJlc3VtZS1jb250YWluZXIge1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIH1cbiAgICAucmVzdW1lLWltZyB7XG4gICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgICAgLyogbWluLXdpZHRoOiA0MDBweDsgKi9cbiAgICAgICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICB9XG48L3N0eWxlPlxuXG48ZGl2IHRyYW5zaXRpb246Ymx1ciBvbjpvdXRyb2VuZD17c2V0QWN0aXZlfT5cbiAgICA8aDM+XG4gICAgICAgIGhhdmUgYSBsb29rIGF0IG15IHJlc3VtZVxuICAgIDwvaDM+XG5cbiAgICA8ZGl2IGNsYXNzPXtcInJlc3VtZS1jb250YWluZXJcIn0+XG4gICAgICAgIDxpbWcgY2xhc3M9e1wicmVzdW1lLWltZ1wifSBzcmM9e1wiaW1hZ2VzL3Jlc3VtZS5wbmdcIn0gYWx0PXtcIm15IHJlc3VtZVwifT5cbiAgICAgICAgPHA+XG4gICAgICAgICAgICA8YSBkb3dubG9hZD1cImJyeXNvbi1kYXZpcy1yZXN1bWUucG5nXCIgaHJlZj1cImltYWdlcy9yZXN1bWUucG5nXCI+XG4gICAgICAgICAgICAgICAgZG93bmxvYWRcbiAgICAgICAgICAgIDwvYT5cbiAgICAgICAgPC9wPiAgICBcbiAgICA8L2Rpdj5cblxuPC9kaXY+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1JLEVBQUUsZUFBQyxDQUFDLEFBQ0EsU0FBUyxDQUFFLElBQUksQ0FDZixXQUFXLENBQUUsR0FBRyxDQUNoQixVQUFVLENBQUUsS0FBSyxDQUNqQixNQUFNLENBQUUsQ0FBQyxDQUNULGFBQWEsQ0FBRSxHQUFHLEFBQ3RCLENBQUMsQUFDRCxDQUFDLGVBQUMsQ0FBQyxBQUNDLFNBQVMsQ0FBRSxHQUFHLEFBQ2xCLENBQUMsQUFDRCxpQkFBaUIsZUFBQyxDQUFDLEFBQ2YsS0FBSyxDQUFFLElBQUksQ0FDWCxVQUFVLENBQUUsTUFBTSxBQUN0QixDQUFDLEFBQ0QsV0FBVyxlQUFDLENBQUMsQUFDVCxTQUFTLENBQUUsSUFBSSxDQUVmLFdBQVcsQ0FBRSxJQUFJLENBQ2pCLFlBQVksQ0FBRSxJQUFJLEFBQ3RCLENBQUMifQ== */";
     	append_dev(document.head, style);
     }
 
@@ -6677,20 +6677,20 @@ var app = (function () {
     			this.h();
     		},
     		h: function hydrate() {
-    			attr_dev(h3, "class", "svelte-mhgif0");
-    			add_location(h3, file$6, 29, 4, 544);
-    			attr_dev(img, "class", img_class_value = "" + (null_to_empty("resume-img") + " svelte-mhgif0"));
+    			attr_dev(h3, "class", "svelte-1yhuau0");
+    			add_location(h3, file$6, 29, 4, 550);
+    			attr_dev(img, "class", img_class_value = "" + (null_to_empty("resume-img") + " svelte-1yhuau0"));
     			if (img.src !== (img_src_value = "images/resume.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = "my resume");
-    			add_location(img, file$6, 34, 8, 638);
+    			add_location(img, file$6, 34, 8, 644);
     			attr_dev(a, "download", "bryson-davis-resume.png");
     			attr_dev(a, "href", "images/resume.png");
-    			add_location(a, file$6, 36, 12, 733);
-    			attr_dev(p, "class", "svelte-mhgif0");
-    			add_location(p, file$6, 35, 8, 717);
-    			attr_dev(div0, "class", div0_class_value = "" + (null_to_empty("resume-container") + " svelte-mhgif0"));
-    			add_location(div0, file$6, 33, 4, 597);
-    			add_location(div1, file$6, 28, 0, 494);
+    			add_location(a, file$6, 36, 12, 739);
+    			attr_dev(p, "class", "svelte-1yhuau0");
+    			add_location(p, file$6, 35, 8, 723);
+    			attr_dev(div0, "class", div0_class_value = "" + (null_to_empty("resume-container") + " svelte-1yhuau0"));
+    			add_location(div0, file$6, 33, 4, 603);
+    			add_location(div1, file$6, 28, 0, 500);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -6787,7 +6787,7 @@ var app = (function () {
     class Resume extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		if (!document.getElementById("svelte-mhgif0-style")) add_css$1();
+    		if (!document.getElementById("svelte-1yhuau0-style")) add_css$1();
     		init(this, options, instance$6, create_fragment$6, safe_not_equal, { setActive: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
