@@ -6,8 +6,11 @@
 	import Projects from './Projects.svelte'
 	import Contact from './Contact.svelte'
 	import Content from './Content.svelte'
+	import Empty from './Empty.svelte'
 
 	let active = 'Introduction'
+	let activeProxy = 'Introduction'
+	const setActive = () => activeProxy = active
 </script>
 
 <style>
@@ -63,27 +66,29 @@
 		<span class = "hero-text">
 			<h1>Bryson Davis</h1>
 			<h2 class = "hero-subtext">
-				developer for interactive media
-				<!-- interactive media + web developer -->	
+				<!-- developer for interactive media -->
+				interactive media + web developer	
 			</h2>
 		</span>
 	</div>
 	<div id="tab-bar" class="tab-bar-background">
 		<TabBar tabs={['Introduction', 'Projects', 'Resume', 'Contact']} let:tab bind:active > 
-			<Tab on:click={() => document.getElementById('tab-bar').scrollIntoView(true)} {tab}>
+			<Tab on:click={() => {document.getElementById('tab-bar').scrollIntoView(true); activeProxy=''}} {tab}>
 				<Label>{tab}</Label>
 			</Tab>
 		</TabBar>
 	</div>
 	<Content>
-		{#if active === 'Introduction'}
-			<Introduction />
-		{:else if active === 'Projects'}
-			<Projects />
-		{:else if active === 'Resume'}
-			<Resume />
+		{#if activeProxy === ''}
+			<Empty />
+		{:else if activeProxy === 'Introduction'}
+			<Introduction {setActive} />
+		{:else if activeProxy === 'Projects'}
+			<Projects {setActive} />
+		{:else if activeProxy === 'Resume'}
+			<Resume {setActive} />
 		{:else}
-			<Contact />
+			<Contact {setActive} />
 		{/if}
 	</Content>
 </main>
