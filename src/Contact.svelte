@@ -1,3 +1,0 @@
-<div>
-    Contact me!
-</div>

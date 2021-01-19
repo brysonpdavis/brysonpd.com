@@ -1,3 +1,0 @@
-<div>
-    Introducing.... BRYSON
-</div>

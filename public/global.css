@@ -5,11 +5,16 @@ html, body {
 }
 
 body {
-	color: #333;
+	color: white;
 	margin: 0;
-	padding: 8px;
+	padding: 0;
 	box-sizing: border-box;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: 'futura-pt';
+	background-image: url("images/N0Mb.gif");
+	background-color: black;
+	background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 
 a {
