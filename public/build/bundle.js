@@ -6614,8 +6614,8 @@ var app = (function () {
 
     function add_css$1() {
     	var style = element("style");
-    	style.id = "svelte-1yhuau0-style";
-    	style.textContent = "h3.svelte-1yhuau0{font-size:3rem;font-weight:400;text-align:right;margin:0;margin-bottom:1em}p.svelte-1yhuau0{font-size:2em}.resume-container.svelte-1yhuau0{width:100%;text-align:center}.resume-img.svelte-1yhuau0{max-width:100%;margin-left:auto;margin-right:auto}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUmVzdW1lLnN2ZWx0ZSIsInNvdXJjZXMiOlsiUmVzdW1lLnN2ZWx0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8c2NyaXB0PlxuICAgIGltcG9ydCB7Ymx1cn0gZnJvbSAnc3ZlbHRlL3RyYW5zaXRpb24nXG4gICAgZXhwb3J0IGxldCBzZXRBY3RpdmU7XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICAgIGgzIHtcbiAgICAgICAgZm9udC1zaXplOiAzcmVtO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxZW07XG4gICAgfVxuICAgIHAge1xuICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG4gICAgLnJlc3VtZS1jb250YWluZXIge1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIH1cbiAgICAucmVzdW1lLWltZyB7XG4gICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgICAgLyogbWluLXdpZHRoOiA0MDBweDsgKi9cbiAgICAgICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICB9XG48L3N0eWxlPlxuXG48ZGl2IHRyYW5zaXRpb246Ymx1ciBvbjpvdXRyb2VuZD17c2V0QWN0aXZlfT5cbiAgICA8aDM+XG4gICAgICAgIGhhdmUgYSBsb29rIGF0IG15IHJlc3VtZVxuICAgIDwvaDM+XG5cbiAgICA8ZGl2IGNsYXNzPXtcInJlc3VtZS1jb250YWluZXJcIn0+XG4gICAgICAgIDxpbWcgY2xhc3M9e1wicmVzdW1lLWltZ1wifSBzcmM9e1wiaW1hZ2VzL3Jlc3VtZS5wbmdcIn0gYWx0PXtcIm15IHJlc3VtZVwifT5cbiAgICAgICAgPHA+XG4gICAgICAgICAgICA8YSBkb3dubG9hZD1cImJyeXNvbi1kYXZpcy1yZXN1bWUucG5nXCIgaHJlZj1cImltYWdlcy9yZXN1bWUucG5nXCI+XG4gICAgICAgICAgICAgICAgZG93bmxvYWRcbiAgICAgICAgICAgIDwvYT5cbiAgICAgICAgPC9wPiAgICBcbiAgICA8L2Rpdj5cblxuPC9kaXY+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1JLEVBQUUsZUFBQyxDQUFDLEFBQ0EsU0FBUyxDQUFFLElBQUksQ0FDZixXQUFXLENBQUUsR0FBRyxDQUNoQixVQUFVLENBQUUsS0FBSyxDQUNqQixNQUFNLENBQUUsQ0FBQyxDQUNULGFBQWEsQ0FBRSxHQUFHLEFBQ3RCLENBQUMsQUFDRCxDQUFDLGVBQUMsQ0FBQyxBQUNDLFNBQVMsQ0FBRSxHQUFHLEFBQ2xCLENBQUMsQUFDRCxpQkFBaUIsZUFBQyxDQUFDLEFBQ2YsS0FBSyxDQUFFLElBQUksQ0FDWCxVQUFVLENBQUUsTUFBTSxBQUN0QixDQUFDLEFBQ0QsV0FBVyxlQUFDLENBQUMsQUFDVCxTQUFTLENBQUUsSUFBSSxDQUVmLFdBQVcsQ0FBRSxJQUFJLENBQ2pCLFlBQVksQ0FBRSxJQUFJLEFBQ3RCLENBQUMifQ== */";
+    	style.id = "svelte-ev62fq-style";
+    	style.textContent = "h3.svelte-ev62fq{font-size:3rem;font-weight:400;text-align:right;margin:0;margin-bottom:1em}p.svelte-ev62fq{font-size:2em}.resume-container.svelte-ev62fq{width:100%;text-align:center}.resume-img.svelte-ev62fq{max-width:100%;margin-left:auto;margin-right:auto;box-shadow:0.25em 0.25em 0.5em #6300ee}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUmVzdW1lLnN2ZWx0ZSIsInNvdXJjZXMiOlsiUmVzdW1lLnN2ZWx0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8c2NyaXB0PlxuICAgIGltcG9ydCB7Ymx1cn0gZnJvbSAnc3ZlbHRlL3RyYW5zaXRpb24nXG4gICAgZXhwb3J0IGxldCBzZXRBY3RpdmU7XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICAgIGgzIHtcbiAgICAgICAgZm9udC1zaXplOiAzcmVtO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxZW07XG4gICAgfVxuICAgIHAge1xuICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG4gICAgLnJlc3VtZS1jb250YWluZXIge1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIH1cbiAgICAucmVzdW1lLWltZyB7XG4gICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgICAgLyogbWluLXdpZHRoOiA0MDBweDsgKi9cbiAgICAgICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICAgICAgYm94LXNoYWRvdzogMC4yNWVtIDAuMjVlbSAwLjVlbSAjNjMwMGVlO1xuICAgIH1cbjwvc3R5bGU+XG5cbjxkaXYgdHJhbnNpdGlvbjpibHVyIG9uOm91dHJvZW5kPXtzZXRBY3RpdmV9PlxuICAgIDxoMz5cbiAgICAgICAgaGF2ZSBhIGxvb2sgYXQgbXkgcmVzdW1lXG4gICAgPC9oMz5cblxuICAgIDxkaXYgY2xhc3M9e1wicmVzdW1lLWNvbnRhaW5lclwifT5cbiAgICAgICAgPGltZyBjbGFzcz17XCJyZXN1bWUtaW1nXCJ9IHNyYz17XCJpbWFnZXMvcmVzdW1lLnBuZ1wifSBhbHQ9e1wibXkgcmVzdW1lXCJ9PlxuICAgICAgICA8cD5cbiAgICAgICAgICAgIDxhIGRvd25sb2FkPVwiYnJ5c29uLWRhdmlzLXJlc3VtZS5wbmdcIiBocmVmPVwiaW1hZ2VzL3Jlc3VtZS5wbmdcIj5cbiAgICAgICAgICAgICAgICBkb3dubG9hZFxuICAgICAgICAgICAgPC9hPlxuICAgICAgICA8L3A+ICAgIFxuICAgIDwvZGl2PlxuXG48L2Rpdj4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTUksRUFBRSxjQUFDLENBQUMsQUFDQSxTQUFTLENBQUUsSUFBSSxDQUNmLFdBQVcsQ0FBRSxHQUFHLENBQ2hCLFVBQVUsQ0FBRSxLQUFLLENBQ2pCLE1BQU0sQ0FBRSxDQUFDLENBQ1QsYUFBYSxDQUFFLEdBQUcsQUFDdEIsQ0FBQyxBQUNELENBQUMsY0FBQyxDQUFDLEFBQ0MsU0FBUyxDQUFFLEdBQUcsQUFDbEIsQ0FBQyxBQUNELGlCQUFpQixjQUFDLENBQUMsQUFDZixLQUFLLENBQUUsSUFBSSxDQUNYLFVBQVUsQ0FBRSxNQUFNLEFBQ3RCLENBQUMsQUFDRCxXQUFXLGNBQUMsQ0FBQyxBQUNULFNBQVMsQ0FBRSxJQUFJLENBRWYsV0FBVyxDQUFFLElBQUksQ0FDakIsWUFBWSxDQUFFLElBQUksQ0FDbEIsVUFBVSxDQUFFLE1BQU0sQ0FBQyxNQUFNLENBQUMsS0FBSyxDQUFDLE9BQU8sQUFDM0MsQ0FBQyJ9 */";
     	append_dev(document.head, style);
     }
 
@@ -6677,20 +6677,20 @@ var app = (function () {
     			this.h();
     		},
     		h: function hydrate() {
-    			attr_dev(h3, "class", "svelte-1yhuau0");
-    			add_location(h3, file$6, 29, 4, 550);
-    			attr_dev(img, "class", img_class_value = "" + (null_to_empty("resume-img") + " svelte-1yhuau0"));
+    			attr_dev(h3, "class", "svelte-ev62fq");
+    			add_location(h3, file$6, 30, 4, 599);
+    			attr_dev(img, "class", img_class_value = "" + (null_to_empty("resume-img") + " svelte-ev62fq"));
     			if (img.src !== (img_src_value = "images/resume.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = "my resume");
-    			add_location(img, file$6, 34, 8, 644);
+    			add_location(img, file$6, 35, 8, 693);
     			attr_dev(a, "download", "bryson-davis-resume.png");
     			attr_dev(a, "href", "images/resume.png");
-    			add_location(a, file$6, 36, 12, 739);
-    			attr_dev(p, "class", "svelte-1yhuau0");
-    			add_location(p, file$6, 35, 8, 723);
-    			attr_dev(div0, "class", div0_class_value = "" + (null_to_empty("resume-container") + " svelte-1yhuau0"));
-    			add_location(div0, file$6, 33, 4, 603);
-    			add_location(div1, file$6, 28, 0, 500);
+    			add_location(a, file$6, 37, 12, 788);
+    			attr_dev(p, "class", "svelte-ev62fq");
+    			add_location(p, file$6, 36, 8, 772);
+    			attr_dev(div0, "class", div0_class_value = "" + (null_to_empty("resume-container") + " svelte-ev62fq"));
+    			add_location(div0, file$6, 34, 4, 652);
+    			add_location(div1, file$6, 29, 0, 549);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -6787,7 +6787,7 @@ var app = (function () {
     class Resume extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		if (!document.getElementById("svelte-1yhuau0-style")) add_css$1();
+    		if (!document.getElementById("svelte-ev62fq-style")) add_css$1();
     		init(this, options, instance$6, create_fragment$6, safe_not_equal, { setActive: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
@@ -6819,147 +6819,219 @@ var app = (function () {
 
     function add_css$2() {
     	var style = element("style");
-    	style.id = "svelte-ukhsqs-style";
-    	style.textContent = "h3.svelte-ukhsqs{font-size:3em;font-weight:400;text-align:right;margin:0;margin-bottom:1em}h4.svelte-ukhsqs{font-size:2em;font-weight:400;text-align:left;margin:0}p.svelte-ukhsqs{font-size:2em}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUHJvamVjdHMuc3ZlbHRlIiwic291cmNlcyI6WyJQcm9qZWN0cy5zdmVsdGUiXSwic291cmNlc0NvbnRlbnQiOlsiPHNjcmlwdD5cbiAgICBpbXBvcnQge2JsdXJ9IGZyb20gJ3N2ZWx0ZS90cmFuc2l0aW9uJ1xuICAgIGV4cG9ydCBsZXQgc2V0QWN0aXZlO1xuPC9zY3JpcHQ+XG5cbjxzdHlsZT5cbiAgICBoMyB7XG4gICAgICAgIGZvbnQtc2l6ZTogM2VtO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxZW07XG4gICAgfVxuXG4gICAgaDQge1xuICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgIH1cblxuICAgIHAge1xuICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG48L3N0eWxlPlxuXG48ZGl2IHRyYW5zaXRpb246Ymx1ciBvbjpvdXRyb2VuZD17c2V0QWN0aXZlfT5cbiAgICA8aDM+XG4gICAgICAgIGEgZmV3IG9mIG15IGZhdiBwcm9qZWN0c1xuICAgIDwvaDM+XG5cbiAgICA8aDQ+XG4gICAgICAgIGdyYWluc3RlbXNcbiAgICA8L2g0PlxuXG4gICAgPHA+XG4gICAgICAgIExvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkbyBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdCBlbmltIGFkIG1pbmltIHZlbmlhbSwgcXVpcyBub3N0cnVkIGV4ZXJjaXRhdGlvbiB1bGxhbWNvIGxhYm9yaXMgbmlzaSB1dCBhbGlxdWlwIGV4IGVhIGNvbW1vZG8gY29uc2VxdWF0LiBEdWlzIGF1dGUgaXJ1cmUgZG9sb3IgaW4gcmVwcmVoZW5kZXJpdCBpbiB2b2x1cHRhdGUgdmVsaXQgZXNzZSBjaWxsdW0gZG9sb3JlIGV1IGZ1Z2lhdCBudWxsYSBwYXJpYXR1ci4gRXhjZXB0ZXVyIHNpbnQgb2NjYWVjYXQgY3VwaWRhdGF0IG5vbiBwcm9pZGVudCwgc3VudCBpbiBjdWxwYSBxdWkgb2ZmaWNpYSBkZXNlcnVudCBtb2xsaXQgYW5pbSBpZCBlc3QgbGFib3J1bS5cbiAgICA8L3A+XG5cbiAgICA8aDQ+XG4gICAgICAgIGNyb3NzaGF0Y2hcbiAgICA8L2g0PlxuXG4gICAgPHA+XG4gICAgICAgIExvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkbyBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdCBlbmltIGFkIG1pbmltIHZlbmlhbSwgcXVpcyBub3N0cnVkIGV4ZXJjaXRhdGlvbiB1bGxhbWNvIGxhYm9yaXMgbmlzaSB1dCBhbGlxdWlwIGV4IGVhIGNvbW1vZG8gY29uc2VxdWF0LiBEdWlzIGF1dGUgaXJ1cmUgZG9sb3IgaW4gcmVwcmVoZW5kZXJpdCBpbiB2b2x1cHRhdGUgdmVsaXQgZXNzZSBjaWxsdW0gZG9sb3JlIGV1IGZ1Z2lhdCBudWxsYSBwYXJpYXR1ci4gRXhjZXB0ZXVyIHNpbnQgb2NjYWVjYXQgY3VwaWRhdGF0IG5vbiBwcm9pZGVudCwgc3VudCBpbiBjdWxwYSBxdWkgb2ZmaWNpYSBkZXNlcnVudCBtb2xsaXQgYW5pbSBpZCBlc3QgbGFib3J1bS5cbiAgICA8L3A+XG5cbiAgICA8aDQ+XG4gICAgICAgIGZsdXhcbiAgICA8L2g0PlxuXG4gICAgPHA+XG4gICAgICAgIExvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkbyBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdCBlbmltIGFkIG1pbmltIHZlbmlhbSwgcXVpcyBub3N0cnVkIGV4ZXJjaXRhdGlvbiB1bGxhbWNvIGxhYm9yaXMgbmlzaSB1dCBhbGlxdWlwIGV4IGVhIGNvbW1vZG8gY29uc2VxdWF0LiBEdWlzIGF1dGUgaXJ1cmUgZG9sb3IgaW4gcmVwcmVoZW5kZXJpdCBpbiB2b2x1cHRhdGUgdmVsaXQgZXNzZSBjaWxsdW0gZG9sb3JlIGV1IGZ1Z2lhdCBudWxsYSBwYXJpYXR1ci4gRXhjZXB0ZXVyIHNpbnQgb2NjYWVjYXQgY3VwaWRhdGF0IG5vbiBwcm9pZGVudCwgc3VudCBpbiBjdWxwYSBxdWkgb2ZmaWNpYSBkZXNlcnVudCBtb2xsaXQgYW5pbSBpZCBlc3QgbGFib3J1bS5cbiAgICA8L3A+XG48L2Rpdj4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTUksRUFBRSxjQUFDLENBQUMsQUFDQSxTQUFTLENBQUUsR0FBRyxDQUNkLFdBQVcsQ0FBRSxHQUFHLENBQ2hCLFVBQVUsQ0FBRSxLQUFLLENBQ2pCLE1BQU0sQ0FBRSxDQUFDLENBQ1QsYUFBYSxDQUFFLEdBQUcsQUFDdEIsQ0FBQyxBQUVELEVBQUUsY0FBQyxDQUFDLEFBQ0EsU0FBUyxDQUFFLEdBQUcsQ0FDZCxXQUFXLENBQUUsR0FBRyxDQUNoQixVQUFVLENBQUUsSUFBSSxDQUNoQixNQUFNLENBQUUsQ0FBQyxBQUNiLENBQUMsQUFFRCxDQUFDLGNBQUMsQ0FBQyxBQUNDLFNBQVMsQ0FBRSxHQUFHLEFBQ2xCLENBQUMifQ== */";
+    	style.id = "svelte-1mqwwtc-style";
+    	style.textContent = "h3.svelte-1mqwwtc{font-size:3em;font-weight:400;text-align:right;margin:0;margin-bottom:1em}h4.svelte-1mqwwtc{font-size:2em;font-weight:400;text-align:left;margin:0}p.svelte-1mqwwtc{font-size:2em}.project-img-container.svelte-1mqwwtc{text-align:center;padding:3em}.project-img.svelte-1mqwwtc{width:100%;filter:grayscale(70%)}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUHJvamVjdHMuc3ZlbHRlIiwic291cmNlcyI6WyJQcm9qZWN0cy5zdmVsdGUiXSwic291cmNlc0NvbnRlbnQiOlsiPHNjcmlwdD5cbiAgICBpbXBvcnQge2JsdXJ9IGZyb20gJ3N2ZWx0ZS90cmFuc2l0aW9uJ1xuICAgIGV4cG9ydCBsZXQgc2V0QWN0aXZlO1xuPC9zY3JpcHQ+XG5cbjxzdHlsZT5cbiAgICBoMyB7XG4gICAgICAgIGZvbnQtc2l6ZTogM2VtO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxZW07XG4gICAgfVxuXG4gICAgaDQge1xuICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgIH1cblxuICAgIHAge1xuICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICB9XG5cbiAgICAucHJvamVjdC1pbWctY29udGFpbmVyIHtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICBwYWRkaW5nOiAzZW07XG4gICAgfVxuXG4gICAgLnByb2plY3QtaW1nIHtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIGZpbHRlcjogZ3JheXNjYWxlKDcwJSk7XG4gICAgfVxuPC9zdHlsZT5cblxuPGRpdiB0cmFuc2l0aW9uOmJsdXIgb246b3V0cm9lbmQ9e3NldEFjdGl2ZX0+XG4gICAgPGgzPlxuICAgICAgICBhIGZldyBvZiBteSBmYXYgcHJvamVjdHNcbiAgICA8L2gzPlxuXG4gICAgPGg0PlxuICAgICAgICBncmFpbnN0ZW1zXG4gICAgPC9oND5cblxuICAgIDxkaXYgY2xhc3M9e1wicHJvamVjdC1pbWctY29udGFpbmVyXCJ9PlxuICAgICAgICA8aW1nIGNsYXNzPXtcInByb2plY3QtaW1nXCJ9IHNyYz17XCJpbWFnZXMvZ3JhaW5zdGVtcy5wbmdcIn0gYWx0PXtcImdyYWluc3RlbXMgaW50ZXJmYWNlXCJ9PlxuICAgIDwvZGl2PlxuXG4gICAgPHA+XG4gICAgICAgIExvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkbyBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdCBlbmltIGFkIG1pbmltIHZlbmlhbSwgcXVpcyBub3N0cnVkIGV4ZXJjaXRhdGlvbiB1bGxhbWNvIGxhYm9yaXMgbmlzaSB1dCBhbGlxdWlwIGV4IGVhIGNvbW1vZG8gY29uc2VxdWF0LiBEdWlzIGF1dGUgaXJ1cmUgZG9sb3IgaW4gcmVwcmVoZW5kZXJpdCBpbiB2b2x1cHRhdGUgdmVsaXQgZXNzZSBjaWxsdW0gZG9sb3JlIGV1IGZ1Z2lhdCBudWxsYSBwYXJpYXR1ci4gRXhjZXB0ZXVyIHNpbnQgb2NjYWVjYXQgY3VwaWRhdGF0IG5vbiBwcm9pZGVudCwgc3VudCBpbiBjdWxwYSBxdWkgb2ZmaWNpYSBkZXNlcnVudCBtb2xsaXQgYW5pbSBpZCBlc3QgbGFib3J1bS5cbiAgICA8L3A+XG5cbiAgICA8aDQ+XG4gICAgICAgIGNyb3NzaGF0Y2hcbiAgICA8L2g0PlxuXG4gICAgPGRpdiBjbGFzcz17XCJwcm9qZWN0LWltZy1jb250YWluZXJcIn0+XG4gICAgICAgIDxpbWcgY2xhc3M9e1wicHJvamVjdC1pbWdcIn0gc3JjPXtcImltYWdlcy9jcm9zc2hhdGNoLWhlYWRlci5wbmdcIn0gYWx0PXtcImdyYWluc3RlbXMgc2NlbmUgd2l0aCBsb2dvXCJ9PlxuICAgIDwvZGl2PlxuXG5cbiAgICA8cD5cbiAgICAgICAgTG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdCwgc2VkIGRvIGVpdXNtb2QgdGVtcG9yIGluY2lkaWR1bnQgdXQgbGFib3JlIGV0IGRvbG9yZSBtYWduYSBhbGlxdWEuIFV0IGVuaW0gYWQgbWluaW0gdmVuaWFtLCBxdWlzIG5vc3RydWQgZXhlcmNpdGF0aW9uIHVsbGFtY28gbGFib3JpcyBuaXNpIHV0IGFsaXF1aXAgZXggZWEgY29tbW9kbyBjb25zZXF1YXQuIER1aXMgYXV0ZSBpcnVyZSBkb2xvciBpbiByZXByZWhlbmRlcml0IGluIHZvbHVwdGF0ZSB2ZWxpdCBlc3NlIGNpbGx1bSBkb2xvcmUgZXUgZnVnaWF0IG51bGxhIHBhcmlhdHVyLiBFeGNlcHRldXIgc2ludCBvY2NhZWNhdCBjdXBpZGF0YXQgbm9uIHByb2lkZW50LCBzdW50IGluIGN1bHBhIHF1aSBvZmZpY2lhIGRlc2VydW50IG1vbGxpdCBhbmltIGlkIGVzdCBsYWJvcnVtLlxuICAgIDwvcD5cblxuICAgIDxoND5cbiAgICAgICAgZmx1eFxuICAgIDwvaDQ+XG5cbiAgICA8ZGl2IGNsYXNzPXtcInByb2plY3QtaW1nLWNvbnRhaW5lclwifT5cbiAgICAgICAgPGltZyBjbGFzcz17XCJwcm9qZWN0LWltZ1wifSBzcmM9e1wiaW1hZ2VzL2ZsdXgtdGVhbS5qcGdcIn0gYWx0PXtcInRoZSBmbHV4IHRlYW1cIn0+XG4gICAgPC9kaXY+XG5cblxuICAgIDxwPlxuICAgICAgICBMb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzY2luZyBlbGl0LCBzZWQgZG8gZWl1c21vZCB0ZW1wb3IgaW5jaWRpZHVudCB1dCBsYWJvcmUgZXQgZG9sb3JlIG1hZ25hIGFsaXF1YS4gVXQgZW5pbSBhZCBtaW5pbSB2ZW5pYW0sIHF1aXMgbm9zdHJ1ZCBleGVyY2l0YXRpb24gdWxsYW1jbyBsYWJvcmlzIG5pc2kgdXQgYWxpcXVpcCBleCBlYSBjb21tb2RvIGNvbnNlcXVhdC4gRHVpcyBhdXRlIGlydXJlIGRvbG9yIGluIHJlcHJlaGVuZGVyaXQgaW4gdm9sdXB0YXRlIHZlbGl0IGVzc2UgY2lsbHVtIGRvbG9yZSBldSBmdWdpYXQgbnVsbGEgcGFyaWF0dXIuIEV4Y2VwdGV1ciBzaW50IG9jY2FlY2F0IGN1cGlkYXRhdCBub24gcHJvaWRlbnQsIHN1bnQgaW4gY3VscGEgcXVpIG9mZmljaWEgZGVzZXJ1bnQgbW9sbGl0IGFuaW0gaWQgZXN0IGxhYm9ydW0uXG4gICAgPC9wPlxuPC9kaXY+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1JLEVBQUUsZUFBQyxDQUFDLEFBQ0EsU0FBUyxDQUFFLEdBQUcsQ0FDZCxXQUFXLENBQUUsR0FBRyxDQUNoQixVQUFVLENBQUUsS0FBSyxDQUNqQixNQUFNLENBQUUsQ0FBQyxDQUNULGFBQWEsQ0FBRSxHQUFHLEFBQ3RCLENBQUMsQUFFRCxFQUFFLGVBQUMsQ0FBQyxBQUNBLFNBQVMsQ0FBRSxHQUFHLENBQ2QsV0FBVyxDQUFFLEdBQUcsQ0FDaEIsVUFBVSxDQUFFLElBQUksQ0FDaEIsTUFBTSxDQUFFLENBQUMsQUFDYixDQUFDLEFBRUQsQ0FBQyxlQUFDLENBQUMsQUFDQyxTQUFTLENBQUUsR0FBRyxBQUNsQixDQUFDLEFBRUQsc0JBQXNCLGVBQUMsQ0FBQyxBQUNwQixVQUFVLENBQUUsTUFBTSxDQUNsQixPQUFPLENBQUUsR0FBRyxBQUNoQixDQUFDLEFBRUQsWUFBWSxlQUFDLENBQUMsQUFDVixLQUFLLENBQUUsSUFBSSxDQUNYLE1BQU0sQ0FBRSxVQUFVLEdBQUcsQ0FBQyxBQUMxQixDQUFDIn0= */";
     	append_dev(document.head, style);
     }
 
     function create_fragment$7(ctx) {
-    	let div;
+    	let div3;
     	let h3;
     	let t0;
     	let t1;
     	let h40;
     	let t2;
     	let t3;
-    	let p0;
+    	let div0;
+    	let img0;
+    	let img0_class_value;
+    	let img0_src_value;
+    	let img0_alt_value;
+    	let div0_class_value;
     	let t4;
+    	let p0;
     	let t5;
-    	let h41;
     	let t6;
+    	let h41;
     	let t7;
-    	let p1;
     	let t8;
+    	let div1;
+    	let img1;
+    	let img1_class_value;
+    	let img1_src_value;
+    	let img1_alt_value;
+    	let div1_class_value;
     	let t9;
-    	let h42;
+    	let p1;
     	let t10;
     	let t11;
-    	let p2;
+    	let h42;
     	let t12;
-    	let div_transition;
+    	let t13;
+    	let div2;
+    	let img2;
+    	let img2_class_value;
+    	let img2_src_value;
+    	let img2_alt_value;
+    	let div2_class_value;
+    	let t14;
+    	let p2;
+    	let t15;
+    	let div3_transition;
     	let current;
     	let mounted;
     	let dispose;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
+    			div3 = element("div");
     			h3 = element("h3");
     			t0 = text("a few of my fav projects");
     			t1 = space();
     			h40 = element("h4");
     			t2 = text("grainstems");
     			t3 = space();
+    			div0 = element("div");
+    			img0 = element("img");
+    			t4 = space();
     			p0 = element("p");
-    			t4 = text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
-    			t5 = space();
+    			t5 = text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+    			t6 = space();
     			h41 = element("h4");
-    			t6 = text("crosshatch");
-    			t7 = space();
-    			p1 = element("p");
-    			t8 = text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+    			t7 = text("crosshatch");
+    			t8 = space();
+    			div1 = element("div");
+    			img1 = element("img");
     			t9 = space();
-    			h42 = element("h4");
-    			t10 = text("flux");
+    			p1 = element("p");
+    			t10 = text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
     			t11 = space();
+    			h42 = element("h4");
+    			t12 = text("flux");
+    			t13 = space();
+    			div2 = element("div");
+    			img2 = element("img");
+    			t14 = space();
     			p2 = element("p");
-    			t12 = text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+    			t15 = text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
     			this.h();
     		},
     		l: function claim(nodes) {
-    			div = claim_element(nodes, "DIV", {});
-    			var div_nodes = children(div);
-    			h3 = claim_element(div_nodes, "H3", { class: true });
+    			div3 = claim_element(nodes, "DIV", {});
+    			var div3_nodes = children(div3);
+    			h3 = claim_element(div3_nodes, "H3", { class: true });
     			var h3_nodes = children(h3);
     			t0 = claim_text(h3_nodes, "a few of my fav projects");
     			h3_nodes.forEach(detach_dev);
-    			t1 = claim_space(div_nodes);
-    			h40 = claim_element(div_nodes, "H4", { class: true });
+    			t1 = claim_space(div3_nodes);
+    			h40 = claim_element(div3_nodes, "H4", { class: true });
     			var h40_nodes = children(h40);
     			t2 = claim_text(h40_nodes, "grainstems");
     			h40_nodes.forEach(detach_dev);
-    			t3 = claim_space(div_nodes);
-    			p0 = claim_element(div_nodes, "P", { class: true });
+    			t3 = claim_space(div3_nodes);
+    			div0 = claim_element(div3_nodes, "DIV", { class: true });
+    			var div0_nodes = children(div0);
+    			img0 = claim_element(div0_nodes, "IMG", { class: true, src: true, alt: true });
+    			div0_nodes.forEach(detach_dev);
+    			t4 = claim_space(div3_nodes);
+    			p0 = claim_element(div3_nodes, "P", { class: true });
     			var p0_nodes = children(p0);
-    			t4 = claim_text(p0_nodes, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+    			t5 = claim_text(p0_nodes, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
     			p0_nodes.forEach(detach_dev);
-    			t5 = claim_space(div_nodes);
-    			h41 = claim_element(div_nodes, "H4", { class: true });
+    			t6 = claim_space(div3_nodes);
+    			h41 = claim_element(div3_nodes, "H4", { class: true });
     			var h41_nodes = children(h41);
-    			t6 = claim_text(h41_nodes, "crosshatch");
+    			t7 = claim_text(h41_nodes, "crosshatch");
     			h41_nodes.forEach(detach_dev);
-    			t7 = claim_space(div_nodes);
-    			p1 = claim_element(div_nodes, "P", { class: true });
+    			t8 = claim_space(div3_nodes);
+    			div1 = claim_element(div3_nodes, "DIV", { class: true });
+    			var div1_nodes = children(div1);
+    			img1 = claim_element(div1_nodes, "IMG", { class: true, src: true, alt: true });
+    			div1_nodes.forEach(detach_dev);
+    			t9 = claim_space(div3_nodes);
+    			p1 = claim_element(div3_nodes, "P", { class: true });
     			var p1_nodes = children(p1);
-    			t8 = claim_text(p1_nodes, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+    			t10 = claim_text(p1_nodes, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
     			p1_nodes.forEach(detach_dev);
-    			t9 = claim_space(div_nodes);
-    			h42 = claim_element(div_nodes, "H4", { class: true });
+    			t11 = claim_space(div3_nodes);
+    			h42 = claim_element(div3_nodes, "H4", { class: true });
     			var h42_nodes = children(h42);
-    			t10 = claim_text(h42_nodes, "flux");
+    			t12 = claim_text(h42_nodes, "flux");
     			h42_nodes.forEach(detach_dev);
-    			t11 = claim_space(div_nodes);
-    			p2 = claim_element(div_nodes, "P", { class: true });
+    			t13 = claim_space(div3_nodes);
+    			div2 = claim_element(div3_nodes, "DIV", { class: true });
+    			var div2_nodes = children(div2);
+    			img2 = claim_element(div2_nodes, "IMG", { class: true, src: true, alt: true });
+    			div2_nodes.forEach(detach_dev);
+    			t14 = claim_space(div3_nodes);
+    			p2 = claim_element(div3_nodes, "P", { class: true });
     			var p2_nodes = children(p2);
-    			t12 = claim_text(p2_nodes, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+    			t15 = claim_text(p2_nodes, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
     			p2_nodes.forEach(detach_dev);
-    			div_nodes.forEach(detach_dev);
+    			div3_nodes.forEach(detach_dev);
     			this.h();
     		},
     		h: function hydrate() {
-    			attr_dev(h3, "class", "svelte-ukhsqs");
-    			add_location(h3, file$7, 27, 4, 446);
-    			attr_dev(h40, "class", "svelte-ukhsqs");
-    			add_location(h40, file$7, 31, 4, 499);
-    			attr_dev(p0, "class", "svelte-ukhsqs");
-    			add_location(p0, file$7, 35, 4, 538);
-    			attr_dev(h41, "class", "svelte-ukhsqs");
-    			add_location(h41, file$7, 39, 4, 1010);
-    			attr_dev(p1, "class", "svelte-ukhsqs");
-    			add_location(p1, file$7, 43, 4, 1049);
-    			attr_dev(h42, "class", "svelte-ukhsqs");
-    			add_location(h42, file$7, 47, 4, 1521);
-    			attr_dev(p2, "class", "svelte-ukhsqs");
-    			add_location(p2, file$7, 51, 4, 1554);
-    			add_location(div, file$7, 26, 0, 396);
+    			attr_dev(h3, "class", "svelte-1mqwwtc");
+    			add_location(h3, file$7, 37, 4, 611);
+    			attr_dev(h40, "class", "svelte-1mqwwtc");
+    			add_location(h40, file$7, 41, 4, 664);
+    			attr_dev(img0, "class", img0_class_value = "" + (null_to_empty("project-img") + " svelte-1mqwwtc"));
+    			if (img0.src !== (img0_src_value = "images/grainstems.png")) attr_dev(img0, "src", img0_src_value);
+    			attr_dev(img0, "alt", img0_alt_value = "grainstems interface");
+    			add_location(img0, file$7, 46, 8, 749);
+    			attr_dev(div0, "class", div0_class_value = "" + (null_to_empty("project-img-container") + " svelte-1mqwwtc"));
+    			add_location(div0, file$7, 45, 4, 703);
+    			attr_dev(p0, "class", "svelte-1mqwwtc");
+    			add_location(p0, file$7, 49, 4, 852);
+    			attr_dev(h41, "class", "svelte-1mqwwtc");
+    			add_location(h41, file$7, 53, 4, 1324);
+    			attr_dev(img1, "class", img1_class_value = "" + (null_to_empty("project-img") + " svelte-1mqwwtc"));
+    			if (img1.src !== (img1_src_value = "images/crosshatch-header.png")) attr_dev(img1, "src", img1_src_value);
+    			attr_dev(img1, "alt", img1_alt_value = "grainstems scene with logo");
+    			add_location(img1, file$7, 58, 8, 1409);
+    			attr_dev(div1, "class", div1_class_value = "" + (null_to_empty("project-img-container") + " svelte-1mqwwtc"));
+    			add_location(div1, file$7, 57, 4, 1363);
+    			attr_dev(p1, "class", "svelte-1mqwwtc");
+    			add_location(p1, file$7, 62, 4, 1526);
+    			attr_dev(h42, "class", "svelte-1mqwwtc");
+    			add_location(h42, file$7, 66, 4, 1998);
+    			attr_dev(img2, "class", img2_class_value = "" + (null_to_empty("project-img") + " svelte-1mqwwtc"));
+    			if (img2.src !== (img2_src_value = "images/flux-team.jpg")) attr_dev(img2, "src", img2_src_value);
+    			attr_dev(img2, "alt", img2_alt_value = "the flux team");
+    			add_location(img2, file$7, 71, 8, 2077);
+    			attr_dev(div2, "class", div2_class_value = "" + (null_to_empty("project-img-container") + " svelte-1mqwwtc"));
+    			add_location(div2, file$7, 70, 4, 2031);
+    			attr_dev(p2, "class", "svelte-1mqwwtc");
+    			add_location(p2, file$7, 75, 4, 2173);
+    			add_location(div3, file$7, 36, 0, 561);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h3);
+    			insert_dev(target, div3, anchor);
+    			append_dev(div3, h3);
     			append_dev(h3, t0);
-    			append_dev(div, t1);
-    			append_dev(div, h40);
+    			append_dev(div3, t1);
+    			append_dev(div3, h40);
     			append_dev(h40, t2);
-    			append_dev(div, t3);
-    			append_dev(div, p0);
-    			append_dev(p0, t4);
-    			append_dev(div, t5);
-    			append_dev(div, h41);
-    			append_dev(h41, t6);
-    			append_dev(div, t7);
-    			append_dev(div, p1);
-    			append_dev(p1, t8);
-    			append_dev(div, t9);
-    			append_dev(div, h42);
-    			append_dev(h42, t10);
-    			append_dev(div, t11);
-    			append_dev(div, p2);
-    			append_dev(p2, t12);
+    			append_dev(div3, t3);
+    			append_dev(div3, div0);
+    			append_dev(div0, img0);
+    			append_dev(div3, t4);
+    			append_dev(div3, p0);
+    			append_dev(p0, t5);
+    			append_dev(div3, t6);
+    			append_dev(div3, h41);
+    			append_dev(h41, t7);
+    			append_dev(div3, t8);
+    			append_dev(div3, div1);
+    			append_dev(div1, img1);
+    			append_dev(div3, t9);
+    			append_dev(div3, p1);
+    			append_dev(p1, t10);
+    			append_dev(div3, t11);
+    			append_dev(div3, h42);
+    			append_dev(h42, t12);
+    			append_dev(div3, t13);
+    			append_dev(div3, div2);
+    			append_dev(div2, img2);
+    			append_dev(div3, t14);
+    			append_dev(div3, p2);
+    			append_dev(p2, t15);
     			current = true;
 
     			if (!mounted) {
     				dispose = listen_dev(
-    					div,
+    					div3,
     					"outroend",
     					function () {
     						if (is_function(/*setActive*/ ctx[0])) /*setActive*/ ctx[0].apply(this, arguments);
@@ -6979,20 +7051,20 @@ var app = (function () {
     			if (current) return;
 
     			add_render_callback(() => {
-    				if (!div_transition) div_transition = create_bidirectional_transition(div, blur, {}, true);
-    				div_transition.run(1);
+    				if (!div3_transition) div3_transition = create_bidirectional_transition(div3, blur, {}, true);
+    				div3_transition.run(1);
     			});
 
     			current = true;
     		},
     		o: function outro(local) {
-    			if (!div_transition) div_transition = create_bidirectional_transition(div, blur, {}, false);
-    			div_transition.run(0);
+    			if (!div3_transition) div3_transition = create_bidirectional_transition(div3, blur, {}, false);
+    			div3_transition.run(0);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    			if (detaching && div_transition) div_transition.end();
+    			if (detaching) detach_dev(div3);
+    			if (detaching && div3_transition) div3_transition.end();
     			mounted = false;
     			dispose();
     		}
@@ -7039,7 +7111,7 @@ var app = (function () {
     class Projects extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		if (!document.getElementById("svelte-ukhsqs-style")) add_css$2();
+    		if (!document.getElementById("svelte-1mqwwtc-style")) add_css$2();
     		init(this, options, instance$7, create_fragment$7, safe_not_equal, { setActive: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {

@@ -23,6 +23,7 @@
         /* min-width: 400px; */
         margin-left: auto;
         margin-right: auto;
+        box-shadow: 0.25em 0.25em 0.5em #6300ee;
     }
 </style>
 
