@@ -23,6 +23,9 @@
     p {
         font-size: 2em;
         text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
     }
 </style>
 
@@ -42,12 +45,12 @@
     </div>
 
     <p>
-        i am a software developer based in <em>brooklyn, new york</em> with a primary background in videogame development, but i am no stranger to front- and back-end web and application development. 
-        my <em>computer science</em> coursework at <em>wesleyan university</em> provided me with a strong theoretical background while i have learned how to quickly grasp and adapt new technologies in my various projects along the way. 
-        i have been using <em>unity</em> for game and app development for three years now, while
-        in the realm of web development, i work in the <em>node.js</em> ecosystem with <em>react</em> and, recently, <em>svelte</em> as my front-end tools of choice.
-        technologies that excite me the most are those that intersect with and stimulate creativity in novel and inspiring ways,
-        and i am always on the lookout for emerging new tools to accomplish new tasks.
+        i am a soft&shy;ware deve&shy;loper based in <em>brooklyn, new york</em> with a primary back&shy;ground in video&shy;game develop&shy;ment, but i am no stranger to front- and back-end web and applica&shy;tion develop&shy;ment. 
+        my <em>computer science</em> course&shy;work at <em>wesleyan university</em> provided me with a strong theore&shy;tical back&shy;ground while i have learned how to quickly grasp and adapt new techno&shy;logies in my various projects along the way. 
+        i have been using <em>unity</em> for game and app develop&shy;ment for three years now, while
+        in the realm of web develop&shy;ment, i work in the <em>node.js</em> eco&shy;system with <em>react</em> and, recently, <em>svelte</em> as my front-end tools of choice.
+        techno&shy;logies that excite me the most are those that inter&shy;sect with and stimulate crea&shy;tivity in novel and inspi&shy;ring ways,
+        and i am always on the look&shy;out for emerging tools to accom&shy;plish new tasks.
     </p>
 
     <p>
