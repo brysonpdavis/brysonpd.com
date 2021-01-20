@@ -34,7 +34,7 @@
     }
 </style>
 
-<div transition:blur on:outroend={setActive}>
+<div transition:blur={{duration: 700}} on:outroend={setActive}>
     <h3>
         a few of my fav projects
     </h3>

@@ -101,3 +101,9 @@ button:focus {
 h3 {
 	text-shadow: 3px 3px #6300ee;
 }
+
+em {
+	text-decoration: none;
+	text-shadow: 3px 3px #6300ee;
+	font-style: normal;
+}
