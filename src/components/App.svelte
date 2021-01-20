@@ -26,8 +26,8 @@
 
 	.hero-text {
 		margin: 0;
-		background-color: #000000aa;
-		padding: 2em;
+		background-color: #000000;
+		padding: 3vw;
 		text-shadow: 3px 3px #6300ee;
 	}
 
