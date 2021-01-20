@@ -21,6 +21,7 @@
 
     p {
         font-size: 2em;
+        text-align: justify;
     }
 
     .project-img-container {
@@ -34,7 +35,7 @@
     }
 </style>
 
-<div transition:blur={{duration: 700}} on:outroend={setActive}>
+<div transition:blur={{duration: 700, amount: 20}} on:outroend={setActive}>
     <h3>
         a few of my fav projects
     </h3>

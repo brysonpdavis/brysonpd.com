@@ -27,7 +27,7 @@
     }
 </style>
 
-<div transition:blur={{duration: 700}} on:outroend={setActive}>
+<div transition:blur={{duration: 700, amount: 20}} on:outroend={setActive}>
     <h3>
         have a look at my resume
     </h3>
