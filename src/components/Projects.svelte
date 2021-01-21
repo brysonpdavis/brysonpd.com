@@ -68,24 +68,24 @@
         imgAlt={'crosshatch scene with logo'}
     >
         <p>
-            my longest-running and most successful project thus far, <em>crosshatch</em> was an independent videogame project designed and developed by a group of four friends, including myself, from wesleyan. 
-            the game was developed in <em>unity</em> and features a core mechanic of two <em>overlapping dimensions</em> that the player can travel and carry objects between to solve spatial and logical puzzles in a whimsical and colorful alien landscape. 
+            my longest-running and most success&shy;ful project thus far, <em>crosshatch</em> was an indepen&shy;dent video&shy;game project designed and devel&shy;oped by a group of four friends, includ&shy;ing myself, from wesleyan. 
+            the game was devel&shy;oped in <em>unity</em> and feat&shy;ures a core mechanic of two <em>over&shy;lapping dimen&shy;sions</em> that the player can travel and carry objects between to solve spatial and logical puzzles in a whim&shy;sical and color&shy;ful alien land&shy;scape. 
         </p>
 
         <Hide>    
             <p>
-                we began part-time work on the game in the summer of 2018, developing mechanics and prototype levels until we brought a demo to <em>pax east</em> in march of 2019. soon after, the project was admitted into the 
-                <em>nyu game center incubator</em> program, which we attended later that year from june to september, affording us the opportunity to work on the project full time with funding and guidance from nyu staff and industry figures.
-                in our time at the incubator, we refined the ideas behind crosshatch and developed a <em>polished demo</em> while learning effective strategies for <em>project management</em> and <em>marketing</em>.
+                we began part-time work on the game in the summer of 2018, devel&shy;oping mech&shy;anics and proto&shy;type levels until we brought a demo to <em>pax east</em> in march of 2019. soon after, the project was admitted into the 
+                <em>nyu game center incu&shy;bator</em> program, which we attended later that year from june to sep&shy;tember, affording us the oppor&shy;tunity to work on the project full time with funding and guid&shy;ance from nyu staff and ind&shy;ustry figures.
+                in our time at the incu&shy;bator, we refined the ideas behind cross&shy;hatch and devel&shy;oped a <em>polished demo</em> while learning effec&shy;tive strat&shy;egies for <em>project manage&shy;ment</em> and <em>market&shy;ing</em>.
             </p>
 
             <p>
-                as the <em>lead programmer</em> on the project, my responsibilities included implementing core game mechanics while maintaining good performance; debugging and optimizing the existing codebase; 
-                setting up and maintaining a version control system with git; advising the rest of the team on the feasibility and scope of new mechanics or features;
-                creating efficiency-minded developer tools for other team members; and developing an original promotional <a href={'http://www.crosshatch.space'}>website</a> for the game.
+                as the <em>lead pro&shy;grammer</em> on the project, my respons&shy;ibilities included imple&shy;menting core game mechanics while main&shy;taining good per&shy;formance; debugg&shy;ing and optimiz&shy;ing the existing codebase; 
+                setting up and main&shy;taining a version control system with git; advising the rest of the team on the feas&shy;ibility and scope of new mechanics or fea&shy;tures;
+                creating effic&shy;iency-minded devel&shy;oper tools for other team members; and devel&shy;oping an original promo&shy;tional <a href={'http://www.crosshatch.space'}>website</a> for the game.
             </p>
             <p>
-                as a core member of this small team, i learned as much about the dynamics of small team rapid development as i did the importance of a well-structured and optimized codebase.
+                as a core member of this small team, i learned as much about the dynamics of small team rapid devel&shy;opment as i did the impor&shy;tance of a well-structured and optimized codebase.
             </p>
         </Hide>
     </ProjectInstance>
@@ -97,19 +97,19 @@
         imgAlt={'the flux team'}
     >
         <p>
-            <a href={'https://youtu.be/24BwA6SMkLg'}>flux</a> was a semester-long class project from my videogame development course at wesleyan university. 
-            the game, a colorful puzzle-platformer developed in <em>unity</em> by a five-person dev team, where i fulfilled the role of lead programmer.
-            it was targeted at 2nd through 5th grade students, with the goal of teaching young players the basic physics of magnetism.
+            <a href={'https://youtu.be/24BwA6SMkLg'}>flux</a> was a semester-long class project from my video&shy;game devel&shy;opment course at wesleyan university. 
+            the game, a color&shy;ful puzzle-plat&shy;former devel&shy;oped in <em>unity</em> by a five-person dev team, where i ful&shy;filled the role of lead pro&shy;grammer.
+            it was tar&shy;geted at 2nd through 5th grade students, with the goal of teach&shy;ing young players the basic physics of magnetism.
         </p>
         <Hide>
             <p>
-                to this end, we implemented instructive, <em>intuitive mechanics</em> rooted in real physics concepts but <em>simplified</em> for a young audience.
-                an important aspect of the development of flux was our <em>iterative development cycle</em>. 
-                to ensure that our mechanics were digestible, fun, and adequately instructive, 
-                we brought prototypes to a nearby elementary school for target audience testing, and incorporated results into following iterations.
+                to this end, we imple&shy;mented instr&shy;uctive, <em>intui&shy;tive mechanics</em> rooted in real physics concepts but <em>simpli&shy;fied</em> for a young audience.
+                an important aspect of the devel&shy;opment of flux was our <em>itera&shy;tive devel&shy;opment cycle</em>. 
+                to ensure that our mechanics were diges&shy;tible, fun, and adequa&shy;tely instruc&shy;tive, 
+                we brought proto&shy;types to a nearby elemen&shy;tary school for target audience testing, and incorp&shy;orated results into follow&shy;ing iterations.
             </p>    
             <p>
-                in the end, we were left with a game that the young students had a blast playing, and along the way, our team learned important lessons about developing with target audience, scope, and timeline in mind in addition to technical strategies for developing in unity.
+                in the end, we were left with a game that the young students had a blast playing, and along the way, our team learned important lessons about developing with target audience, scope, and timeline in mind in addition to tech&shy;nical strat&shy;egies for devel&shy;oping in unity.
                 you can take a look at <a href={'https://youtu.be/24BwA6SMkLg'}>this video</a> i edited which includes gameplay footage, and comments from children who played the finished game.
             </p>
         </Hide>
