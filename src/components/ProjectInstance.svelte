@@ -21,6 +21,7 @@
     .project-img {
         width: 100%;
         filter: grayscale(70%);
+        border-radius: 1em;
     }
     
     .project-container {

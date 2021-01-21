@@ -14,13 +14,6 @@
         margin-bottom: 1em;
     }
 
-    h4 {
-        font-size: 2em;
-        font-weight: 400;
-        text-align: left;
-        margin: 0;
-    }
-
     p {
         font-size: 2em;
         text-align: justify;

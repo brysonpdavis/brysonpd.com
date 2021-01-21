@@ -24,6 +24,7 @@
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0.25em 0.25em 0.5em #6300ee;
+        border-radius: 0.5em;
     }
 </style>
 

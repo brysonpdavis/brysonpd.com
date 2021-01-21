@@ -5,7 +5,6 @@
 <style>
     button {
         font-family: arrows;
-        border-radius: 0%;
         font-size: 1.5em;
         box-shadow: 4px 4px 3px #6300ee;
     }
