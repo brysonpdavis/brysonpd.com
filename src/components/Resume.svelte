@@ -37,8 +37,12 @@
     <div class={"resume-container"}>
         <img class={"resume-img"} src={"images/resume.png"} alt={"my resume"}>
         <p>
+            download:
             <a download="bryson-davis-resume.png" href="images/resume.png">
-                download
+                png
+            </a>
+            <a download="bryson-davis-resume.pdf" href="images/resume.pdf">
+                pdf
             </a>
         </p>    
     </div>
