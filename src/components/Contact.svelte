@@ -19,7 +19,7 @@
     <h3>
         feel free to contact me
     </h3>
-    <p>i'm currently looking for a permanent full-time developer position and am available for freelance work</p>
+    <p>i'm currently looking for a permanent full-time developer position and am available for freelance work.</p>
     <p>brysonpd@gmail.com</p>
     <p><a href={"mailto: brysonpd@gmail.com"}>email</a></p>
     <p><a href={"https://github.com/brysonpdavis/"}>github</a></p>
