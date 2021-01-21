@@ -13,13 +13,14 @@
     }
     p {
         font-size: 2em;
+        margin-bottom: 0;
     }
     .resume-container {
         width: 100%;
         text-align: center;
     }
     .resume-img {
-        max-width: 100%;
+        max-width: 800px;
         /* min-width: 400px; */
         margin-left: auto;
         margin-right: auto;
