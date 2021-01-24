@@ -20,6 +20,7 @@
         text-align: center;
     }
     .resume-img {
+        width: 100%;
         max-width: 800px;
         /* min-width: 400px; */
         margin-left: auto;
