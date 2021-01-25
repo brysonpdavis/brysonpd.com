@@ -35,7 +35,7 @@
 
     @media screen and (max-width: 600px) {
         p{
-            font-size: 1em;
+            font-size: 1.5em;
         }
     }
 </style>
