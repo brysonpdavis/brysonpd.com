@@ -15,13 +15,25 @@
     }
 
     p {
-        font-size: 2em;
         text-align: justify;
         hyphens: auto;
         -webkit-hyphens: auto;
         -ms-hyphens: auto;
         margin-block-end: 0; 
     }
+
+    @media screen and (min-width: 601px){
+        p {
+            font-size: 2em
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        p{
+            font-size: 1em;
+        }
+    }
+
 
 </style>
 
@@ -82,7 +94,6 @@
             </p>
         </Hide>
     </ProjectInstance>
-
     <ProjectInstance
         name={'flux'}
         url={'https://youtu.be/24BwA6SMkLg'}
