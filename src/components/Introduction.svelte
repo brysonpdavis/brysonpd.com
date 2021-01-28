@@ -65,7 +65,8 @@
     </p>
 
     <p>
-        in my life out&shy;side of soft&shy;ware develop&shy;ment, i find fulfill&shy;ment in many crea&shy;tive pur&shy;suits. music prod&shy;uction, photo&shy;graphy, and graphic design are just a few of my many hobbies that keep me busy. 
+        in my life out&shy;side of soft&shy;ware develop&shy;ment, i have held down a steady and rewarding part-time career as a bartender since 2018, and i find fulfill&shy;ment in many crea&shy;tive pur&shy;suits. 
+        music prod&shy;uction, photo&shy;graphy, and graphic design are just a few of my many hobbies that keep me busy. 
         both in my career and in my personal life, i most value crea&shy;tivity, clar&shy;ity, depend&shy;ability, and authen&shy;ticity, and i hope with every de&shy;cision i make to leave the world and the web a more beau&shy;tiful place.
     </p>
 </div>

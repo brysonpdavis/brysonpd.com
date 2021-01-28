@@ -102,7 +102,7 @@
     >
         <p>
             <a href={'https://youtu.be/24BwA6SMkLg'}>flux</a> was a semester-long class project from my video&shy;game devel&shy;opment course at wesleyan university. 
-            the game, a color&shy;ful puzzle-plat&shy;former devel&shy;oped in <em>unity</em> by a five-person dev team, where i ful&shy;filled the role of lead pro&shy;grammer.
+            the game is a color&shy;ful puzzle-plat&shy;former devel&shy;oped in <em>unity</em> by a five-person dev team, where i ful&shy;filled the role of lead pro&shy;grammer.
             it was tar&shy;geted at 2nd through 5th grade students, with the goal of teach&shy;ing young players the basic physics of magnetism.
         </p>
         <Hide>
