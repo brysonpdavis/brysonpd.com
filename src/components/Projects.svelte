@@ -16,9 +16,9 @@
 
     p {
         text-align: justify;
-        hyphens: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
+        hyphens: manual;
+        -webkit-hyphens: manual;
+        -ms-hyphens: manual;
         margin-block-end: 0; 
     }
 
