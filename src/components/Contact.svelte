@@ -1,7 +1,13 @@
-<script>
-    import {blur} from 'svelte/transition'
-    export let setActive;
-</script>
+<h3>feel free to contact me</h3>
+<p>
+    i'm currently looking for a permanent full-time developer position and am
+    available for freelance work.
+</p>
+<p>brysonpd@gmail.com</p>
+<p><a href={"mailto: brysonpd@gmail.com"}>email</a></p>
+<p><a href={"https://github.com/brysonpdavis/"}>github</a></p>
+<p><a href={"https://linkedin.com/in/bryson-davis-76855214a/"}>linkedin</a></p>
+
 <style>
     h3 {
         font-size: 3em;
@@ -14,14 +20,3 @@
         font-size: 2em;
     }
 </style>
-
-<div transition:blur={{duration: 700, amount: 20}} on:outroend={setActive}>
-    <h3>
-        feel free to contact me
-    </h3>
-    <p>i'm currently looking for a permanent full-time developer position and am available for freelance work.</p>
-    <p>brysonpd@gmail.com</p>
-    <p><a href={"mailto: brysonpd@gmail.com"}>email</a></p>
-    <p><a href={"https://github.com/brysonpdavis/"}>github</a></p>
-    <p><a href={"https://linkedin.com/in/bryson-davis-76855214a/"}>linkedin</a></p>
-</div>

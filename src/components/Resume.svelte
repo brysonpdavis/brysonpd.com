@@ -1,7 +1,13 @@
-<script>
-    import {blur} from 'svelte/transition'
-    export let setActive;
-</script>
+<h3>have a look at my resume</h3>
+
+<div class={"resume-container"}>
+    <img class={"resume-img"} src={"https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/3bcb1b5e-5c61-4553-0b19-00ee07b8a300/fullres"} alt={"my resume"} />
+    <p>
+        download:
+        <a download="bryson-davis-resume.png" href="https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/3bcb1b5e-5c61-4553-0b19-00ee07b8a300/fullres"> png </a>
+        <a download="bryson-davis-resume.pdf" href="images/resume.pdf"> pdf </a>
+    </p>
+</div>
 
 <style>
     h3 {
@@ -29,23 +35,3 @@
         border-radius: 0.5em;
     }
 </style>
-
-<div transition:blur={{duration: 700, amount: 20}} on:outroend={setActive}>
-    <h3>
-        have a look at my resume
-    </h3>
-
-    <div class={"resume-container"}>
-        <img class={"resume-img"} src={"images/resume.png"} alt={"my resume"}>
-        <p>
-            download:
-            <a download="bryson-davis-resume.png" href="images/resume.png">
-                png
-            </a>
-            <a download="bryson-davis-resume.pdf" href="images/resume.pdf">
-                pdf
-            </a>
-        </p>    
-    </div>
-
-</div>

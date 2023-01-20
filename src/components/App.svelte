@@ -1,4 +1,6 @@
-<script lang='ts'>
+<script lang="ts">
+	import type { SvelteComponent } from "svelte";
+	import { blur } from "svelte/transition";
 	import Tab, { Label } from "@smui/tab";
 	import TabBar from "@smui/tab-bar";
 	import Introduction from "./Introduction.svelte";
@@ -6,11 +8,25 @@
 	import Projects from "./Projects.svelte";
 	import Contact from "./Contact.svelte";
 	import Content from "./Content.svelte";
-	import Empty from "./Empty.svelte";
 
-	let active = "Introduction";
-	let activeProxy = "Introduction";
-	const setActive = () => (activeProxy = active);
+	type SectionLabel =
+		| "Introduction"
+		| "Experience"
+		| "Projects"
+		| "Resume"
+		| "Contact"
+		| "";
+
+	let active: SectionLabel = "Introduction";
+	let activeProxy: SectionLabel = "Introduction";
+
+	const sections: { Element: typeof SvelteComponent; label: SectionLabel }[] =
+		[
+			{ Element: Introduction, label: "Introduction" },
+			{ Element: Projects, label: "Projects" },
+			{ Element: Resume, label: "Resume" },
+			{ Element: Contact, label: "Contact" }
+		]
 </script>
 
 <main>
@@ -41,24 +57,20 @@
 		</TabBar>
 	</div>
 	<Content>
-		{#if activeProxy === ""}
-			<Empty />
-		{:else if activeProxy === "Introduction"}
-			<Introduction {setActive} />
-		{:else if activeProxy === "Projects"}
-			<Projects {setActive} />
-		{:else if activeProxy === "Resume"}
-			<Resume {setActive} />
-		{:else}
-			<Contact {setActive} />
-		{/if}
+		{#each sections as { Element, label }}
+			{#if label === activeProxy}
+				<div
+					transition:blur={{ duration: 500, amount: 70 }}
+					on:outroend={() => { activeProxy = active }}
+				>
+					<Element />
+				</div>
+			{/if}
+		{/each}
 	</Content>
 </main>
 
 <style>
-	@import url(https://unpkg.com/@smui/tab-bar@latest/bare.css);
-	@import url(https://unpkg.com/@smui/tab@latest/bare.css);
-
 	.hero-text-container {
 		height: calc(100vh - 3em);
 		display: flex;
@@ -101,5 +113,4 @@
 		font-weight: 300;
 		font-size: 3vw;
 	}
-
 </style>
