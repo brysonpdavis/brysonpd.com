@@ -5,11 +5,14 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
-    "git": "git add . && git commit -m"
+    "git": "git add . && git commit -m",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@tsconfig/svelte": "^2.0.0",
     "node-sass": "^5.0.0",
     "postcss": "^8.2.4",
     "rollup": "^2.3.4",
@@ -19,9 +22,15 @@
     "rollup-plugin-svelte": "^7.0.0",
     "rollup-plugin-terser": "^7.0.0",
     "svelte": "^3.0.0",
-    "svelte-material-ui": "^1.0.0"
+    "svelte-check": "^2.0.0",
+    "svelte-material-ui": "^1.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
   },
   "dependencies": {
+    "@smui/tab": "^7.0.0-beta.0",
+    "@smui/tab-bar": "^7.0.0-beta.0",
     "sirv-cli": "^1.0.0"
   }
 }

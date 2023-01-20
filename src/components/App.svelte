@@ -1,22 +1,61 @@
-<script>
-	import Tab, {Label} from '@smui/tab'
-	import TabBar from '@smui/tab-bar'
-	import Introduction from './Introduction.svelte'
-	import Resume from './Resume.svelte'
-	import Projects from './Projects.svelte'
-	import Contact from './Contact.svelte'
-	import Content from './Content.svelte'
-	import Empty from './Empty.svelte'
+<script lang='ts'>
+	import Tab, { Label } from "@smui/tab";
+	import TabBar from "@smui/tab-bar";
+	import Introduction from "./Introduction.svelte";
+	import Resume from "./Resume.svelte";
+	import Projects from "./Projects.svelte";
+	import Contact from "./Contact.svelte";
+	import Content from "./Content.svelte";
+	import Empty from "./Empty.svelte";
 
-	let active = 'Introduction'
-	let activeProxy = 'Introduction'
-	const setActive = () => activeProxy = active
+	let active = "Introduction";
+	let activeProxy = "Introduction";
+	const setActive = () => (activeProxy = active);
 </script>
 
+<main>
+	<div class="hero-text-container">
+		<span class="hero-text">
+			<h1>Bryson Davis</h1>
+			<h2 class="hero-subtext">
+				<!-- developer for interactive media -->
+				interactive media + web developer
+			</h2>
+		</span>
+	</div>
+	<div id="tab-bar" class="tab-bar-background">
+		<TabBar
+			tabs={["Introduction", "Projects", "Resume", "Contact"]}
+			let:tab
+			bind:active
+		>
+			<Tab
+				on:click={() => {
+					document.getElementById("tab-bar").scrollIntoView(true);
+					activeProxy = "";
+				}}
+				{tab}
+			>
+				<Label>{tab}</Label>
+			</Tab>
+		</TabBar>
+	</div>
+	<Content>
+		{#if activeProxy === ""}
+			<Empty />
+		{:else if activeProxy === "Introduction"}
+			<Introduction {setActive} />
+		{:else if activeProxy === "Projects"}
+			<Projects {setActive} />
+		{:else if activeProxy === "Resume"}
+			<Resume {setActive} />
+		{:else}
+			<Contact {setActive} />
+		{/if}
+	</Content>
+</main>
+
 <style>
-
-
-
 	.hero-text-container {
 		height: calc(100vh - 3em);
 		display: flex;
@@ -60,35 +99,3 @@
 		font-size: 3vw;
 	}
 </style>
-
-<main>
-	<div class="hero-text-container">
-		<span class = "hero-text">
-			<h1>Bryson Davis</h1>
-			<h2 class = "hero-subtext">
-				<!-- developer for interactive media -->
-				interactive media + web developer	
-			</h2>
-		</span>
-	</div>
-	<div id="tab-bar" class="tab-bar-background">
-		<TabBar tabs={['Introduction', 'Projects', 'Resume', 'Contact']} let:tab bind:active > 
-			<Tab on:click={() => {document.getElementById('tab-bar').scrollIntoView(true); activeProxy=''}} {tab}>
-				<Label>{tab}</Label>
-			</Tab>
-		</TabBar>
-	</div>
-	<Content>
-		{#if activeProxy === ''}
-			<Empty />
-		{:else if activeProxy === 'Introduction'}
-			<Introduction {setActive} />
-		{:else if activeProxy === 'Projects'}
-			<Projects {setActive} />
-		{:else if activeProxy === 'Resume'}
-			<Resume {setActive} />
-		{:else}
-			<Contact {setActive} />
-		{/if}
-	</Content>
-</main>

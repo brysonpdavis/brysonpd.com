@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     import {blur} from 'svelte/transition'
     import Hide from './Hide.svelte';
     import ProjectInstance from './ProjectInstance.svelte';
