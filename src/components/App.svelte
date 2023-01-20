@@ -56,6 +56,9 @@
 </main>
 
 <style>
+	@import url(https://unpkg.com/@smui/tab-bar@latest/bare.css);
+	@import url(https://unpkg.com/@smui/tab@latest/bare.css);
+
 	.hero-text-container {
 		height: calc(100vh - 3em);
 		display: flex;
@@ -98,4 +101,5 @@
 		font-weight: 300;
 		font-size: 3vw;
 	}
+
 </style>
