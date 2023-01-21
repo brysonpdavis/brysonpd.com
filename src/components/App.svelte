@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { SvelteComponent } from "svelte";
+	import { type SvelteComponent, onMount } from "svelte";
 	import { blur } from "svelte/transition";
 	import Tab, { Label } from "@smui/tab";
 	import TabBar from "@smui/tab-bar";
@@ -19,49 +19,68 @@
 
 	let active: SectionLabel = "Introduction";
 	let activeProxy: SectionLabel = "Introduction";
+	let loaded: boolean = false;
 
 	const sections: { Element: typeof SvelteComponent; label: SectionLabel }[] =
 		[
 			{ Element: Introduction, label: "Introduction" },
 			{ Element: Projects, label: "Projects" },
 			{ Element: Resume, label: "Resume" },
-			{ Element: Contact, label: "Contact" }
-		]
+			{ Element: Contact, label: "Contact" },
+		];
+
+	onMount(() => {
+		setTimeout(() => (loaded = true), 50);
+	});
 </script>
 
 <main>
 	<div class="hero-text-container">
-		<span class="hero-text">
-			<h1>Bryson Davis</h1>
-			<h2 class="hero-subtext">
-				<!-- developer for interactive media -->
-				interactive media + web developer
-			</h2>
-		</span>
+		{#if loaded}
+			<span in:blur={{ duration: 500, amount: 70 }} class="hero-text">
+				<h1>Bryson Davis</h1>
+				<h2 class="hero-subtext">
+					<!-- developer for interactive media -->
+					interactive media + web developer
+				</h2>
+			</span>
+		{/if}
 	</div>
-	<div id="tab-bar" class="tab-bar-background">
-		<TabBar
-			tabs={["Introduction", "Projects", "Resume", "Contact"]}
-			let:tab
-			bind:active
+	{#if loaded}
+		<div
+			id="tab-bar"
+			class="tab-bar-background"
+			in:blur={{ duration: 500, amount: 70 }}
 		>
-			<Tab
-				on:click={() => {
-					document.getElementById("tab-bar").scrollIntoView(true);
-					activeProxy = "";
-				}}
-				{tab}
-			>
-				<Label>{tab}</Label>
-			</Tab>
-		</TabBar>
-	</div>
+			<span>
+				<TabBar
+					tabs={["Introduction", "Projects", "Resume", "Contact"]}
+					let:tab
+					bind:active
+				>
+					<Tab
+						on:click={() => {
+							document
+								.getElementById("tab-bar")
+								.scrollIntoView(true);
+							activeProxy = "";
+						}}
+						{tab}
+					>
+						<Label>{tab}</Label>
+					</Tab>
+				</TabBar>
+			</span>
+		</div>
+	{/if}
 	<Content>
 		{#each sections as { Element, label }}
 			{#if label === activeProxy}
 				<div
 					transition:blur={{ duration: 500, amount: 70 }}
-					on:outroend={() => { activeProxy = active }}
+					on:outroend={() => {
+						activeProxy = active;
+					}}
 				>
 					<Element />
 				</div>
@@ -71,6 +90,9 @@
 </main>
 
 <style>
+	@import "@smui/tab/bare.css";
+	@import "@smui/tab-bar/bare.css";
+
 	.hero-text-container {
 		height: calc(100vh - 3em);
 		display: flex;
