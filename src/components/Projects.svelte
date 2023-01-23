@@ -15,13 +15,13 @@
             href="https://www.grainstems.net">grainstems</a
         >
         is a
-        <em
-            >gran&shy;ular synthe&shy;sizer and sample manipu&shy;lation webapp</em
-        > created and developed solely by myself. the app allows users to choose
+        <em>gran&shy;ular synthe&shy;sizer and sample manipu&shy;lation webapp</em> 
+        created and developed solely by myself. the app allows users to choose
         from a data&shy;base of samples which they can then repitch, filter, and
         adjust tempo/speed to create new, inter&shy;esting sounds, as well as the
         ability for users to upload their own samples for them&shy;selves and other
-        users to granul&shy;arize.
+        users to granul&shy;arize. you can check out the work in prog&shy;ress at 
+        <a href="https://www.grainstems.net">grainstems.net</a>.
     </p>
     <Hide>
         <p>
@@ -36,15 +36,12 @@
             the app makes exten&shy;sive use of <em>tone.js</em>, a node library
             that stream&shy;lines, abstr&shy;acts, and builds upon feat&shy;ures
             of the native web audio api and provides the granu&shy;lar engine at
-            the heart of grainstems. hosted on <em>netlify</em> and built on a
-            <em>jamstack architecture</em>, the project utilizes <em>react</em>
-            for the front-end frame&shy;work, in addi&shy;tion to
-            <em>serverless functions</em>, an <em>aws s3</em> bucket, and a
-            <em>graphql</em>
+            the heart of grainstems. hosted on <em>vercel</em> and built using
+            the <em>T3 stack</em>, the project utilizes <em>react</em>
+            for the front-end frame&shy;work, in a <em>next.js</em> app in
+            addi&shy;tion to an <em>aws s3</em> bucket, and a <em>tRPC</em>
             inter&shy;face for query&shy;ing and mutat&shy;ing a
-            <em>faunadb</em>
-            data&shy;base. you can check out the work in prog&shy;ress at
-            <a href="https://www.grainstems.net">grainstems.net</a>.
+            <em>postgresql</em> data&shy;base.
         </p>
     </Hide>
 </ProjectInstance>
@@ -55,16 +52,12 @@
     imgAlt={"crosshatch scene with logo"}
 >
     <p>
-        my longest-running and most success&shy;ful project thus far, <em
-            >crosshatch</em
-        >
-        was an indepen&shy;dent video&shy;game project designed and
-        devel&shy;oped by a group of four friends, includ&shy;ing myself, from
-        wesleyan. the game was devel&shy;oped in <em>unity</em> and
-        feat&shy;ures a core mechanic of two
-        <em>over&shy;lapping dimen&shy;sions</em> that the player can travel and
-        carry objects between to solve spatial and logical puzzles in a whim&shy;sical
-        and color&shy;ful alien land&shy;scape.
+        <em>crosshatch</em> was an indepen&shy;dent video&shy;game project 
+        designed and devel&shy;oped by a group of four friends, includ&shy;ing 
+        myself, from wesleyan. the game was devel&shy;oped in <em>unity</em> and 
+        feat&shy;ures a core mechanic of two <em>over&shy;lapping dimen&shy;sions</em> 
+        that the player can travel and carry objects between to solve spatial and 
+        logical puzzles in a whim&shy;sical and color&shy;ful alien land&shy;scape.
     </p>
 
     <Hide>

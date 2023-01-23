@@ -11,32 +11,26 @@
 </div>
 
 <p>
-    i am a soft&shy;ware deve&shy;loper based in <em>brooklyn, new york</em>
-    with a primary back&shy;ground in video&shy;game develop&shy;ment, but i am
-    no stranger to front- and back-end web and applica&shy;tion
-    develop&shy;ment. my <em>computer science</em> course&shy;work at
-    <em>wesleyan university</em>
-    provided me with a strong theore&shy;tical back&shy;ground while i have
-    learned how to quickly grasp and adapt new techno&shy;logies in my various
-    projects along the way. i have been using <em>unity</em> for game and app
-    develop&shy;ment for three years now, while in the realm of web
-    develop&shy;ment, i work in the <em>node.js</em> eco&shy;system with
-    <em>react</em>
-    and, recently, <em>svelte</em> as my front-end tools of choice. techno&shy;logies
-    that excite me the most are those that inter&shy;sect with and stimulate crea&shy;tivity
-    in novel and inspi&shy;ring ways, and i am always on the look&shy;out for emerging
-    tools to accom&shy;plish new tasks.
+    i’m a software engineer based in <em>brooklyn, new york</em> with a primary
+    background in web and videogame development. my <em>computer science</em> coursework
+    at <em>wesleyan university</em> provided me with a strong theoretical background
+    while, in my professional experiences, i have come to understand that the
+    most valuable skill one can have in our ever evolving landscape is the
+    ability and drive to quickly and constantly learn. i have been primarily
+    using <em>typescript</em> in the node ecosystem for three years now, doing plenty
+    of professional frontend work in <em>react</em>, while choosing <em>svelte</em> for personal
+    projects. i’m never happier than when focused on a project that has captured
+    my attention.
 </p>
 
 <p>
-    in my life out&shy;side of soft&shy;ware develop&shy;ment, i have held down
-    a steady and rewarding part-time career as a bartender since 2018, and i
-    find fulfill&shy;ment in many crea&shy;tive pur&shy;suits. music
-    prod&shy;uction, photo&shy;graphy, and graphic design are just a few of my
-    many hobbies that keep me busy. both in my career and in my personal life, i
-    most value crea&shy;tivity, clar&shy;ity, depend&shy;ability, and
-    authen&shy;ticity, and i hope with every de&shy;cision i make to leave the
-    world and the web a more beau&shy;tiful place.
+    in my life outside of software development, i have held down a steady and
+    rewarding part-time career as a bartender since 2018, and i find fulfillment
+    in a number of creative pursuits. music production, photography, and graphic
+    design are just a few of my many hobbies that keep me busy. both in my
+    career and in my personal life, i most value creativity, clarity,
+    dependability, and authenticity, and i hope with every decision i make to
+    leave the world and the web a more beautiful place.
 </p>
 
 <style>
