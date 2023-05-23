@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { type SvelteComponent, onMount } from "svelte";
+	import { onMount } from "svelte";
 	import { blur } from "svelte/transition";
 	import Tab, { Label } from "@smui/tab";
 	import TabBar from "@smui/tab-bar";
@@ -21,18 +21,22 @@
 	let activeProxy: SectionLabel = "Introduction";
 	let loaded: boolean = false;
 
-	const sections: { Element: typeof SvelteComponent; label: SectionLabel }[] =
+	const sections: { Component: typeof Introduction; label: SectionLabel }[] =
 		[
-			{ Element: Introduction, label: "Introduction" },
-			{ Element: Projects, label: "Projects" },
-			{ Element: Resume, label: "Resume" },
-			{ Element: Contact, label: "Contact" },
+			{ Component: Introduction, label: "Introduction" },
+			{ Component: Projects, label: "Projects" },
+			{ Component: Resume, label: "Resume" },
+			{ Component: Contact, label: "Contact" },
 		];
 
 	onMount(() => {
 		setTimeout(() => (loaded = true), 50);
 	});
 </script>
+
+<svelte:head >
+	<link rel="preload" href="https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/fd2efa0e-2259-41ee-cb51-7e96c0347800/public" />
+</svelte:head>
 
 <main>
 	<div class="hero-text-container">
@@ -74,7 +78,7 @@
 		</div>
 	{/if}
 	<Content>
-		{#each sections as { Element, label }}
+		{#each sections as { Component: Element, label }}
 			{#if label === activeProxy}
 				<div
 					transition:blur={{ duration: 500, amount: 70 }}
