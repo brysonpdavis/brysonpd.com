@@ -1,10 +1,15 @@
+<script>
+
+    import { resumeImg } from "../imageUrls";
+
+</script>
 <h3>have a look at my resume</h3>
 
 <div class={"resume-container"}>
-    <img class={"resume-img"} src={"https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/60df25df-87ae-48e0-4f10-d8ebf1600500/fullres"} alt={"my resume"} />
+    <img class={"resume-img"} src={resumeImg} alt={"my resume"} />
     <p>
         download:
-        <a download="bryson-davis-resume.png" href="https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/60df25df-87ae-48e0-4f10-d8ebf1600500/fullres"> png </a>
+        <a download="bryson-davis-resume.png" href={resumeImg}> png </a>
         <a download="bryson-davis-resume.pdf" href="images/resume.pdf"> pdf </a>
     </p>
 </div>

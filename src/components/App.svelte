@@ -8,6 +8,7 @@
 	import Projects from "./Projects.svelte";
 	import Contact from "./Contact.svelte";
 	import Content from "./Content.svelte";
+	import { imgUrls } from "../imageUrls";
 
 	type SectionLabel =
 		| "Introduction"
@@ -34,8 +35,10 @@
 	});
 </script>
 
-<svelte:head >
-	<link rel="preload" href="https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/fd2efa0e-2259-41ee-cb51-7e96c0347800/public" />
+<svelte:head>
+	{#each imgUrls as url}
+		<link rel="preload" href={url} />
+	{/each}
 </svelte:head>
 
 <main>

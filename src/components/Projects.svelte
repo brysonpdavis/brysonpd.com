@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { crosshatchThumbnail, fluxThumbnail, grainstemsThumbnail } from "../imageUrls";
     import Hide from "./Hide.svelte";
     import ProjectInstance from "./ProjectInstance.svelte";
 </script>
@@ -7,7 +8,7 @@
 <ProjectInstance
     name={"grainstems"}
     url={"https://www.grainstems.net"}
-    imgSrc={"https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/235d05d3-0748-4de9-a6b0-5ad1c1e00300/public"}
+    imgSrc={grainstemsThumbnail}
     imgAlt={"grainstems interface"}
 >
     <p>
@@ -48,7 +49,7 @@
 <ProjectInstance
     name={"crosshatch"}
     url={"http://www.crosshatch.space"}
-    imgSrc={"https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/d39652bb-97ec-4ad1-31a2-c279550dc300/public"}
+    imgSrc={crosshatchThumbnail}
     imgAlt={"crosshatch scene with logo"}
 >
     <p>
@@ -98,7 +99,7 @@
 <ProjectInstance
     name={"flux"}
     url={"https://youtu.be/24BwA6SMkLg"}
-    imgSrc={"https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/65e86846-3843-4576-1821-a76785c50d00/public"}
+    imgSrc={fluxThumbnail}
     imgAlt={"the flux team"}
 >
     <p>

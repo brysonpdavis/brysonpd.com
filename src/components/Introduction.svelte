@@ -1,10 +1,14 @@
+<script>
+    import { headshot } from "../imageUrls";
+</script>
+
 <h3>hi, i'm bryson</h3>
 
 <div class={"headshot-container"}>
     <img
         class={"headshot"}
         style={"border-radius: 50%;"}
-        src={"https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/62188613-2f83-4d30-aefe-d30c795e4100/public"}
+        src={headshot}
         alt={"a nice pic of me"}
         width={"100%"}
     />
