@@ -1,10 +1,54 @@
 <script lang="ts">
-    import { crosshatchThumbnail, fluxThumbnail, grainstemsThumbnail } from "../imageUrls";
+    import {
+        crosshatchThumbnail,
+        fluxThumbnail,
+        grainstemsThumbnail,
+        pooledhouseThumbnail,
+    } from "../imageUrls";
     import Hide from "./Hide.svelte";
     import ProjectInstance from "./ProjectInstance.svelte";
 </script>
 
 <h3>a few of my fav projects</h3>
+<ProjectInstance
+    name={"pooledhouse"}
+    url={"https://www.pooledhouse.com"}
+    imgSrc={pooledhouseThumbnail}
+    imgAlt={"pooledhouse thumbnail"}
+>
+    <p>
+        <a href="https://www.pooledhouse.com">pooledhouse</a> is a webapp platform
+        where verified restaurant workers can share their experiences of past or
+        current workplaces with each other and the general public. to post on the
+        platform, one has to be verified as a restaurant worker (verification is
+        handled by a referral system), but all info on the platform is public.
+    </p>
+    <Hide>
+        <p>
+            i started work on <em>pooledhouse</em> in the spring of 2023,
+            partially because I wanted a good excuse to use <em>SvelteKit</em>,
+            the new full stack framework for <em>Svelte</em>, but also because i
+            felt that none of the current workplace review platforms lent
+            themselves well to the restaurant/service industry properly, and
+            something new would be good for the culture of the industry.
+        </p>
+        <p>
+            on the technical side of things, pooledhouse is a serverless
+            application running on a vercel node.js serverless runtime with a postgresql
+            database hosted by railway. i am managing database queries and
+            migrations with <em>prisma</em>, though am considering a switch to drizzle in
+            an effort to make the application edge-compatible, and styling is
+            handled by <em>tailwindcss</em> and <em>daisyui</em>.
+        </p>
+        <p>
+            the app is just about to reach the alpha stage where i will be
+            getting it in front of its first public users to test out and gather
+            some feedback. if you're interested in hearing about any upcoming
+            releases, reach out to my email at brysonpd@gmail.com, and i'll make
+            sure to let you know when it reaches alpha!
+        </p>
+    </Hide>
+</ProjectInstance>
 <ProjectInstance
     name={"grainstems"}
     url={"https://www.grainstems.net"}
@@ -16,12 +60,14 @@
             href="https://www.grainstems.net">grainstems</a
         >
         is a
-        <em>gran&shy;ular synthe&shy;sizer and sample manipu&shy;lation webapp</em> 
-        created and developed solely by myself. the app allows users to choose
-        from a data&shy;base of samples which they can then repitch, filter, and
-        adjust tempo/speed to create new, inter&shy;esting sounds, as well as the
-        ability for users to upload their own samples for them&shy;selves and other
-        users to granul&shy;arize. you can check out the work in prog&shy;ress at 
+        <em
+            >gran&shy;ular synthe&shy;sizer and sample manipu&shy;lation webapp</em
+        >
+        created and developed solely by myself. the app allows users to choose from
+        a data&shy;base of samples which they can then repitch, filter, and adjust
+        tempo/speed to create new, inter&shy;esting sounds, as well as the ability
+        for users to upload their own samples for them&shy;selves and other users
+        to granul&shy;arize. you can check out the work in prog&shy;ress at
         <a href="https://www.grainstems.net">grainstems.net</a>.
     </p>
     <Hide>
@@ -53,11 +99,12 @@
     imgAlt={"crosshatch scene with logo"}
 >
     <p>
-        <em>crosshatch</em> was an indepen&shy;dent video&shy;game project 
-        designed and devel&shy;oped by a group of four friends, includ&shy;ing 
-        myself, from wesleyan. the game was devel&shy;oped in <em>unity</em> and 
-        feat&shy;ures a core mechanic of two <em>over&shy;lapping dimen&shy;sions</em> 
-        that the player can travel and carry objects between to solve spatial and 
+        <em>crosshatch</em> was an indepen&shy;dent video&shy;game project
+        designed and devel&shy;oped by a group of four friends, includ&shy;ing
+        myself, from wesleyan. the game was devel&shy;oped in <em>unity</em> and
+        feat&shy;ures a core mechanic of two
+        <em>over&shy;lapping dimen&shy;sions</em>
+        that the player can travel and carry objects between to solve spatial and
         logical puzzles in a whim&shy;sical and color&shy;ful alien land&shy;scape.
     </p>
 
