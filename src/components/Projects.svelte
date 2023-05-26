@@ -34,11 +34,12 @@
         </p>
         <p>
             on the technical side of things, pooledhouse is a serverless
-            application running on a vercel node.js serverless runtime with a postgresql
-            database hosted by railway. i am managing database queries and
-            migrations with <em>prisma</em>, though am considering a switch to drizzle in
-            an effort to make the application edge-compatible, and styling is
-            handled by <em>tailwindcss</em> and <em>daisyui</em>.
+            application running on a vercel node.js serverless runtime with a
+            postgresql database hosted by railway. i am managing database
+            queries and migrations with <em>prisma</em>, though am considering a
+            switch to drizzle in an effort to make the application
+            edge-compatible, and styling is handled by <em>tailwindcss</em> and
+            <em>daisyui</em>.
         </p>
         <p>
             the app is just about to reach the alpha stage where i will be
@@ -56,13 +57,11 @@
     imgAlt={"grainstems interface"}
 >
     <p>
-        started in late 2020 and still in develop&shy;ment, <a
-            href="https://www.grainstems.net">grainstems</a
-        >
-        is a
-        <em
-            >gran&shy;ular synthe&shy;sizer and sample manipu&shy;lation webapp</em
-        >
+        started in late 2020 and now (mostly) complete,
+        <a href="https://www.grainstems.net">grainstems</a> is a
+        <em>
+            gran&shy;ular synthe&shy;sizer and sample manipu&shy;lation webapp
+        </em>
         created and developed solely by myself. the app allows users to choose from
         a data&shy;base of samples which they can then repitch, filter, and adjust
         tempo/speed to create new, inter&shy;esting sounds, as well as the ability
