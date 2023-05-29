@@ -37,7 +37,7 @@
 
 <svelte:head>
 	{#each imgUrls as url}
-		<link rel="preload" href={url} />
+		<link rel="preload" href={url} as="image" />
 	{/each}
 </svelte:head>
 
