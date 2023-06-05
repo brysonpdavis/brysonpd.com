@@ -1,4 +1,4 @@
-export const resumeImg = "https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/60df25df-87ae-48e0-4f10-d8ebf1600500/fullres"
+export const resumeImg = "https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/3d586552-9200-4d15-5775-64d9dd8f7400/fullres"
 
 export const backgroundStaticGIF = "https://imagedelivery.net/WgthTHkA3u_KXXGaU9U3RQ/fd2efa0e-2259-41ee-cb51-7e96c0347800/public"
 
