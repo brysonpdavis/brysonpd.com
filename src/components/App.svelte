@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-	import { blur } from "svelte/transition";
+	import { blur, fly } from "svelte/transition";
 	import Tab, { Label } from "@smui/tab";
 	import TabBar from "@smui/tab-bar";
 	import Introduction from "./Introduction.svelte";
@@ -19,7 +19,6 @@
 		| "";
 
 	let active: SectionLabel = "Introduction";
-	let activeProxy: SectionLabel = "Introduction";
 	let loaded: boolean = false;
 
 	const sections: { Component: typeof Introduction; label: SectionLabel }[] =
@@ -70,7 +69,6 @@
 							document
 								.getElementById("tab-bar")
 								.scrollIntoView(true);
-							activeProxy = "";
 						}}
 						{tab}
 					>
@@ -81,15 +79,13 @@
 		</div>
 	{/if}
 	<Content>
-		{#each sections as { Component: Element, label }}
-			{#if label === activeProxy}
+		{#each sections as { Component, label }}
+			{#if label === active}
 				<div
-					transition:blur={{ duration: 500, amount: 70 }}
-					on:outroend={() => {
-						activeProxy = active;
-					}}
+					in:fly={{duration: 250, delay: 250, x: 100}}
+					out:fly={{ duration: 250, x: -100 }}
 				>
-					<Element />
+					<Component />
 				</div>
 			{/if}
 		{/each}
